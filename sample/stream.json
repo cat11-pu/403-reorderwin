@@ -1,0 +1,17 @@
+{
+  "budget": 3,
+  "cap": 2,
+  "bad_at_code": "E_BAD_AT",
+  "bad_value_code": "E_BAD_VALUE",
+  "empty_code": "E_EMPTY",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "buf": [], "out": [], "forced": 0, "flushes": 0, "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "push", "at": 5, "value": 1 },
+    { "id": 2, "kind": "push", "at": 3, "value": 2 },
+    { "id": 3, "kind": "push", "at": 7, "value": 3 },
+    { "id": 4, "kind": "push", "at": 6, "value": 4 },
+    { "id": 5, "kind": "flush" },
+    { "id": 6, "kind": "push", "at": 9, "value": 5 }
+  ]
+}
